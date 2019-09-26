@@ -1,0 +1,12 @@
+$main-color: cyan;
+$main-bg: beige;
+$ug-header-color: salmon;
+
+body { color: $main-color; background-color: $main-bg; }
+
+h1, h2, h3, h4 { color: $ug-header-color; }
+
+.do-transform {
+    transform: translate(50%, 50%);
+    user-select: none;
+}
